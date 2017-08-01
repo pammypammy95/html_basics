@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>HTML DIV Layout</title>
+		
+		<style type = "text/css">
+			body {font:12px verdana, sans-serif; margin: 0px;}
+			.header{height:20%; padding:10px 0; 
+					background-image:url("C:/Batch3/html_basics/binary.jpg"); 
+					background-repeat:no-repeat;background-size:100%;
+					}
+			.header h1{font-size:20px; margin:50px; float:right; color:white;}
+			.header h3{font-size:12px; margin:0px; float:right; color:white;}
+			.container{background-color:#f0f0f0;}
+			.menubar{height:6%; background-color:#bbd2df;}
+			.nav ul{list-style:none; padding:0px; margin:0px; overflow:hidden;}
+			.nav ul li{margin-bottom:5px; float:left; padding:10px; display:inline;}
+			.nav ul li a{color:#3d677e;}
+			.nav ul li a:hover{text-decoration:none;}
+			.content{float:left; height:100%;}
+			.content .section{padding:10px;}
+			iframe{border:none; height:100%; width:200%; }
+			.content h2{font-size:16px; margin:0px;}
+			.clearfix{clear:both;}
+			.footer{background-color:#679BB7; padding:10px 0;}
+			.footer p{text-align:center; margin:5px;}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1>THE OPTIMUM SOLUTIONS</h1>
+			</div>
+			<div class="wrapper">
+				<div class="menubar">
+					<div class="nav">
+						<ul>
+							<li><a href="assignment8_partA.html" target="iframe">Home</a></li>
+							<li><a href="assignment8_partB.html" target="iframe">About Training Program</a></li>
+							<li><a href="assignment8_partC.html" target="iframe">Team</a></li>
+							<li><a href="assignment8_partD.html" target="iframe">Feedback</a></li>
+							<li><a href="assignment7_partA.html" target="iframe">Login Here</a></li>
+							<li><a href="assignment7_partC.html" target="iframe">Register With Us</a></li>
+							<li><a href="assignment8_partE.html" target="iframe">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="content">
+					<iframe class="section" src="assignment8_partA.html" name="iframe"></iframe>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer">
+				<p>Copyright @ Optimum</p>
+			</div>
+		</div>
+	</body>
+</html>

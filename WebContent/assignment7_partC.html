@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Information</title>
+	</head>
+	
+	<body>
+		<form>
+			<table border = "2" align = "center">
+				<tr>
+					<td colspan = "2" align = "center">
+						<b>Account Information</b>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Login Name*</label></td>
+					<td><input type = "loginName"></td>
+				</tr>
+				<tr>
+					<td><label>Password*</label></td>
+					<td><input type = "password"></td>
+				</tr>
+				<tr>
+					<td><label>Confirm Password*</label></td>
+					<td><input type = "confirmPassword"></td>
+				</tr>
+				<tr>
+					<td><label>Email Address*</label></td>
+					<td><input type = "email"></td>
+				</tr>
+				<tr>
+					<td><label>Confirm Email*</label></td>
+					<td><input type = "confirmEmail"></td>
+				</tr>
+				<tr>
+					<td colspan = "2" align = "center">
+						<b>Contact Information</b>
+					</td>
+				</tr>
+				<tr>
+					<td><label>First Name*</label></td>
+					<td><input type = "firstName"></td>
+				</tr>
+				<tr>
+					<td><label>Last Name*</label></td>
+					<td><input type = "lastName"></td>
+				</tr>
+				<tr>
+					<td><label>Address 1*</label></td>
+					<td><input type = "addressOne"></td>
+				</tr>
+				<tr>
+					<td><label>Address 2</label></td>
+					<td><input type = "addressTwo"></td>
+				</tr>
+				<tr>
+					<td><label>City*</label></td>
+					<td><input type = "city"></td>
+				</tr>
+				<tr>
+					<td><label for = "state">State*</label></td>
+					<td>
+						<select name = "state" id = "state">
+							<option value = "#">Select...</option>
+							<option value = "tampines">Tampines</option>
+							<option value = "expo">Expo</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Zipcode</label></td>
+					<td><input type = "zipcode"></td>
+				</tr>
+				<tr>
+					<td><label>Country*</label></td>
+					<td><input type = "country"></td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<td>
+						<input type = "radio" name = "gender" id = "female">
+						<label for = "female">Female</label>
+						<input type = "radio" name = "gender" id = "male">
+						<label for = "male">Male</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan = "2" align = "center">
+						<b>Misc. Information</b>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Annual Household Income</label></td>
+					<td>
+						<select name = "annualIncome" id = "annualIncome">
+							<option value = "#">Select...</option>
+							<option value = "optionOne">$1000 - $2000</option>
+							<option value = "optionTwo">$2000 - $3000</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label>Interests</label></td>
+					<td>
+						<input type = "checkbox" name = "interest" id = "shoppingFashion">
+						<label for = "shoppingFashion">Shopping/Fashion</label>
+						<input type = "checkbox" name = "interest" id = "sports">
+						<label for = "sports">Sports</label>
+						<input type = "checkbox" name = "interest" id = "travel">
+						<label for = "travel">Travel</label>
+					</td>
+				</tr>
+				<tr>
+					<td colspan = "2" align = "center">
+						<input type = "submit" value = "Submit">
+						<input type = "reset" value = "Reset">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

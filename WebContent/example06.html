@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>HTML DIV Layout</title>
+		
+		<style type = "text/css">
+			body {font:12px verdana, sans-serif; margin: 0px;}
+			.header{padding:10px 0; background-color:#679BB7;}
+			.header h1{font-size:18px; margin:10px;}
+			.container{width:100%;background-color:#f0f0f0;}
+			.sidebar{float:left; width:20%;min-height:170px;background-color:#bbd2df;}
+			.sidebar .nav{padding:10px;}
+			.nav ul{list-style:none; padding:0px; margin:0px;}
+			.nav ul li{margin-bottom:5px;}
+			.nav ul li a{color:#3d677e;}
+			.nav ul li a:hover{text-decoration:none;}
+			.content{float:left; width:80%; min-height:170px;}
+			.content .section{padding:10px;}
+			iframe{border:none;}
+			.content h2{font-size:16px; margin:0px;}
+			.clearfix{clear:both;}
+			.footer{background-color:#679BB7; padding:10px 0;}
+			.footer p{text-align:center; margin:5px;}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1>Optimum Solutions</h1>
+			</div>
+			<div class="wrapper">
+				<div class="sidebar">
+					<div class="nav">
+						<ul>
+							<li><a href="example06_partA.html" target="iframe">Home</a></li>
+							<li><a href="example06_partB.html" target="iframe">About</a></li>
+							<li><a href="example06_partC.html" target="iframe">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="content">
+					<iframe class="section" src="example06_partA.html" name="iframe"></iframe>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="footer">
+				<p>Copyright @ Optimum</p>
+			</div>
+		</div>
+	</body>
+</html>
